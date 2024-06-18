@@ -1,0 +1,387 @@
+*
+{
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+}
+html
+		{
+			scroll-behavior: smooth;
+		}
+		.kavin
+		{
+			background: rgba(125, 12, 12, 0.96);
+			font-size: 15px;
+		}
+		nav
+		{
+			height: 120px;
+			background: white;
+			border: 1px solid none;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+		nav img
+		{
+			
+			color: rgba(196, 32, 32, 1);
+			height: 120px;
+			width: ;
+			border: 1px solid none;
+			
+		}
+		nav ul
+		{
+			float: right;
+			margin-right: 200px;
+			border: 1px solid none;
+			margin-top: 0px;
+		}
+		nav ul li
+		{
+			display: inline-block;
+			line-height: 20px;
+			margin: 40px 10px 20px ;
+			border: 1px solid none;
+			font-weight: bold;
+			color: red;
+
+		}
+		.icon
+		{
+			right: 0;
+			position: absolute;
+			margin-right: 100px;
+			top: 90px;
+			font-size: 25px;
+			font-weight: 200;
+			display: flex;
+
+		}
+		.icon i
+		{
+			padding: 10px;
+		}
+		#down
+		{
+			transition: 0.5s;
+			margin-left: 3px;
+			transform: rotate(-180deg);
+		}
+		
+		li:hover #down
+		{
+			transform: rotate(0deg);
+
+		}
+		#left
+		{
+			font-size: 25px;
+		}
+		input
+		{
+			height: 50px;
+			color: black;
+			width: 99%;
+		}
+		.input
+		{
+			display: none;
+		}
+		.input i
+		{
+			font-size: 20px;
+			margin-top: 10px;
+			align-items: center;
+			display: inline-block;
+
+		}
+
+		#left span
+		{
+			font-size: 5px;
+		}
+		nav ul li a
+		{
+			color:rgba(125, 12, 12, 0.96);
+			position: relative;
+			font-size: 15px;
+			padding: 5px;
+			text-decoration: none;
+		}
+		nav ul li a:before
+		{
+			position: absolute;
+			content: '';
+			left: 0;
+			bottom: 0;
+			height: 3px;
+			width: 100%;
+			background: rgba(196, 32, 32, 1);
+			transform: scaleX(0);
+			transform-origin: right;
+			transition: transform 1s linear;
+		}
+		nav ul li a:hover:before
+		{
+			transform: scaleX(1);
+			transform-origin: left;
+
+		}
+		label #btn,
+		label #cancel
+		{
+			color: black;
+			font-size: 25px;
+			right: 0;
+			line-height: 60px;
+			margin-right: 40px;
+			cursor: pointer;
+			display: none;
+			
+		}
+		#check
+		{
+			display: none;
+		}
+		.pic
+		{
+			padding: 2%;
+		}
+		.pic img
+		{
+			height: 400px;
+			width: 95%;
+		}
+		 .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+    .picall{
+      position: relative;
+      height: 95%;
+      padding: 5%;
+    }
+    #Email
+    {
+    	height: 40px;
+    	width: 70%;
+    	padding: 10px;
+
+    }
+    .sub
+    {
+    	height: 40px;
+    	width: 150px;
+    	color: yellow;
+    	background: red;
+    	display: flex;
+    	align-items: center;
+    	justify-content: space-evenly;
+    }
+    .inp
+    {
+    	display: flex;
+    }
+    .footer1
+    {
+    	background:  rgba(245, 39, 145, 0.13);
+    }
+   
+.footer .f
+{
+	height: 250px;
+	border: 1px solid none;
+	padding: 50px;
+}
+.footer t{
+	float: left;
+	text-align: center;
+}
+.target
+{
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	background: black;
+	position: absolute;
+	right: 0;
+	margin-right: 20px;
+	top: 5450px;
+	
+}
+.target:hover
+		{
+			background: rgba(0, 0, 0, 0.6);
+		}
+.target i
+		{
+			font-size: 30px;
+			color:white;
+			align-items: center;
+			display: flex;
+			justify-content: space-evenly;
+
+		}
+
+
+   
+
+
+
+
+
+
+		@media (max-width:1300px)
+		{
+
+		nav img
+		{
+			margin-left: 2%;
+			color: rgba(196, 32, 32, 1);
+			height: 100px;
+			width: ;
+			border: 1px solid none;
+			
+		}
+		nav ul
+		{
+			float: right;
+			margin-right: 150px;
+			border: 1px solid none;
+			margin-top: 0px;
+			
+		}
+		nav ul li
+		{
+			display: inline-block;
+			line-height: 15px;
+			margin: 20px 5px 20px ;
+			border: 1px solid none;
+			font-weight: bold;
+			color: red;
+
+		}
+		.icon 
+		{
+			right: 0;
+			position: absolute;
+			margin-right: 65px;
+			top: 110px;
+			font-size: 18px;
+			display: none;
+
+		}
+		
+		input ,#i
+		{
+			display: none;
+		}
+		.pic
+		{
+			padding: 2%;
+		}
+		.pic img
+		{
+			height: 400px;
+			width: 95%;
+		}
+		
+
+
+
+		@media (max-width:1200px)
+		{
+			label #btn
+			{
+				display: block;
+			}
+			nav
+			{
+				height: 80px;
+			}
+			ul
+			{
+
+				position: fixed;
+				width: 100%;
+				height: 100vh;
+				background: white;
+				top: 80px;
+				left:-100%;
+				text-align: center;
+				transition: all .8s;
+			}
+			nav img
+			{
+				height: 80px;
+			}
+			nav ul li 
+			{
+				display: block;
+				margin: 10px 0;
+				line-height: 40px;
+			}
+			label #btn,
+			label #cancel
+			{
+				position: absolute;
+				z-index: 1;
+				left: 0;
+				top: 5px;
+				margin-left: 35px;
+				font-size: 30px;
+			}
+			#check:checked ~ ul
+			{
+				left:-50px;
+			}
+			#check:checked ~ label #btn
+			{
+				display: none;
+			}
+			#check:checked ~ label #cancel
+			{
+				display: block;
+			}
+			.icon
+			{
+				display: none;
+			}
+			
+			.input
+			{
+				display:flex;
+
+			}
+			#flex
+			{
+				margin-left: 100px;
+			}
+			input ,#i
+		{
+			display: block;
+			padding: 5px;
+
+		}
+		.target
+		{
+			top: 5000px;
+		}
+
+}
+@media (max-width:600px)
+{
+  .target
+		{
+			top: 10550px;
+		}
+}
